@@ -65,7 +65,7 @@ try:
     from Focal_loss import FocalLoss
 
     # SHAP utilities (optional; only used when shap_enable=True)
-    from shap_utils import (
+    from Shap_utils import (
         shap_rank_descriptors_for_task,
         collapse_binary_dummy_pairs,
         rank_from_shap_values,

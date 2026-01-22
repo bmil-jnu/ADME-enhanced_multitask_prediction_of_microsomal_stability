@@ -1,9 +1,14 @@
-# Species-aware multi-task learning with molecular and ADME descriptors for liver microsomal metabolic stability
+# Cross-species multi-task learning with molecular and ADME descriptors for liver microsomal metabolic stability
 Authors: Subhin Seomun, Sunyong Yoo
 
 ## Description
 This project introduces a species-aware, multi-task, multi-modal framework for predicting liver microsomal metabolic stability across human (HLM), rat (RLM), and mouse (MLM). Our model fuses SMILES-derived fingerprints, graph-neural features, and in-silico ADME/physicochemical descriptors to improve cross-species generalization and to explain model decisions. Interpretability combines descriptor-level SHAP  with EdgeSHAPer, plus fragment–ADME enrichment to link local chemistries to system-level properties. The repository contains:
-- **[Dataset](https://github.com/bmil-jnu/ADME-Enhanced_multitask_prediction_of_microsomal_stability/tree/main/Dataset)**: The dataset used in the paper.
+- **[Dataset](Dataset)**: The dataset used in the paper.
+- **[Model](Model)**:  The implementation of the ADME-enhanced multitask prediction of microsomal stability prediction algorithm.
+- **[SHAP](Analysis/SHAP)**: Code and analysis results generated with SHAP.
+- **[Edgeshaper](Analysis/Edgeshaper)**: Code and analysis results generated with Edgeshaper.
+- **[Heatmap](Analysis/SHAP)**: Code and analysis results generated with Heatmap.
+
 
 ## Dependency
 The project has the following dependencies:
